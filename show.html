@@ -1,0 +1,2161 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <script>
+        location.href = location.href.replace("tpl=11","tpl=14").replace("tabid=11","tabid=5");
+        var speedTimePoint = [[(new Date()), 1470, 120, 31, 1470, 120, 32, 1470, 120, 33, 1470, 120, 44]];
+        speedTimePoint.rptTime = 4000;
+        speedTimePoint.diffNetwork = true;
+        speedTimePoint.huatuoReport = true;
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>购物</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="//img10.360buyimg.com">
+    <link rel="dns-prefetch" href="//img11.360buyimg.com">
+    <link rel="dns-prefetch" href="//img12.360buyimg.com">
+    <link rel="dns-prefetch" href="//img13.360buyimg.com">
+    <link rel="dns-prefetch" href="//img14.360buyimg.com">
+    <link rel="dns-prefetch" href="//wq.360buyimg.com">
+    <link combofile="mall/gouwu.shtml" rel="stylesheet" href="
+    http://wq.360buyimg.com/c/=/fd/base/css/base/base.s.min.css,
+    /fd/base/css/base/mod_bar_history.s.min.css,
+    /fd/base/css/base/mod_bar_download.s.min.css,
+    /fd/base/css/base/mod_nav_foot.s.min.css,
+    /fd/base/css/search/search_panel.s.min.css,
+    /fd/wx/css/base/wx_bar_v2.s.min.css,
+    /fd/wx/css/mall/mall.s.min.css,
+    /fd/wx/css/mall/ju.s.min.css,
+    /fd/wx/css/mall/brand.s.min.css,
+    /fd/wx/css/mall/xin.s.min.css?t=1446173512" 
+    />
+    <script>
+        speedTimePoint[1] = new Date(); // css加载时间
+    </script>
+</head>
+<body class="has_wx_download">
+<textarea class="J_viewData" style="display:none">{"tab": 2}</textarea>
+
+<script>
+window.onerror = function(a, b, c, d, e) {
+    function f(a) {
+        var b, c;
+        if ("object" == typeof a) {
+            if (null === a) return "null";
+            if (window.JSON && window.JSON.stringify) return JSON.stringify(a);
+            c = g(a),
+            b = [];
+            for (var d in a) b.push((c ? "": '"' + d + '":') + f(a[d]));
+            return b = b.join(),
+            c ? "[" + b + "]": "{" + b + "}"
+        }
+        return "undefined" == typeof a ? "undefined": "number" == typeof a || "function" == typeof a ? a.toString() : a ? '"' + a + '"': '""'
+    }
+    function g(a) {
+        return "[object Array]" == Object.prototype.toString.call(a)
+    }
+    var h, i = window;
+    if (d = d || i.event && i.event.errorCharacter || 0, e && e.stack) 
+        a = e.stack.toString();
+    else if(arguments.callee) {
+        for (var j = [a], k = arguments.callee.caller, l = 3; k && --l > 0 && (j.push(k.toString()), k !== k.caller);) k = k.caller;
+        j = j.join(","),
+        a = j
+    }
+    if (h = f(a) + (b ? ";URL:" + b: "") + (c ? ";Line:" + c: "") + (d ? ";Column:" + d: ""), i._last_err_msg) {
+        if (i._last_err_msg.indexOf(a) > -1) return;
+        i._last_err_msg += "|" + a
+    } else i._last_err_msg = a;
+
+    if ( - 1 === h.indexOf("WeixinJSBridge") && (setTimeout(function() {
+        console.log("ERROR:" + h);
+        var a = encodeURIComponent(h),
+        b = new Image;
+        b.src = "//wq.jd.com/webmonitor/collect/badjs.json?Content=" + a + "&t=" + Math.random()
+    }, 1e3), 
+    window._BADJSCHECKRPT))
+
+    try {
+        setTimeout(function() {
+            JD && JD.report.umpBiz({
+                bizid: 55,
+                operation: _BADJSCHECKRPT.operation,
+                result: "1",
+                source: "0",
+                message: ""
+            })
+        },1e3)
+    }catch(m) {}
+    return !1
+};
+</script>
+<script>
+try { (function(g) {
+        g.jdpts = {};
+        jdpts._st = new Date().getTime();
+        g.jdtj = g.jdtj || {};
+        jdtj.st = jdpts._st;
+        function c(l, k, j) {
+            if (l.addEventListener) {
+                l.addEventListener(k, j, false)
+            } else {
+                if (l.attachEvent) {
+                    l.attachEvent("on" + k, j)
+                } else {
+                    l["on" + k] = j
+                }
+            }
+        }
+        function e(j) {
+            var k = new RegExp("(^| )" + j + "(?:=([^;]*))?(;|$)"),
+            l = document.cookie.match(k);
+            return l ? (l[2] ? unescape(l[2]) : "") : null
+        }
+        function f(k, m, j, o) {
+            var l = e(k);
+            if (l != null) {
+                var n = new Date();
+                n.setMinutes(n.getMinutes() - 1000);
+                m = m || "/";
+                document.cookie = k + "=;expires=" + n.toGMTString() + (m ? ";path=" + m: "") + (j ? ";domain=" + j: "") + (o ? ";secure": "")
+            }
+        }
+        function i(j) {
+            var k = new Image(1, 1);
+            k.src = j;
+            k.onload = function() {
+                k.onload = null;
+                k.onerror = null
+            };
+            k.onerror = function() {
+                k.onload = null;
+                k.onerror = null
+            };
+            g._mercury_head_img = k
+        }
+        function b() {
+            var j = e("__wga") || "";
+            j = j ? j.split(".") : [];
+            return j[5] ? j[5] : 1
+        }
+        function h() {
+            var j = ("https:" == location.protocol ? "https://mercuryssl": "http://hermes") + ".jd.com/log.gif?t=wg_wx.100000&m=MO_J2011-2&pin=" + encodeURIComponent(e("jdpin") || "-") + "&sid=" + e("visitkey") + "|" + b() + "&v=&url=" + encodeURIComponent(location.href) + "&ref=" + encodeURIComponent(document.referrer || "") + "&rm=" + (new Date).getTime();
+            i(j)
+        }
+        function a() {
+            var m = e("visitkey") || "";
+            var k = /^([1-9])$/;
+            var j = JD.GLOBAL_CONFIG.RDPS_PERCENT;
+            if (j == 0) {
+                return
+            } else {
+                if (k.test(j)) {
+                    if (!m || (parseInt(m.substr( - 1)) > j) || (parseInt(m.substr( - 1)) == 0)) {
+                        return
+                    }
+                } else {
+                    if (!m) {
+                        return
+                    }
+                }
+            }
+            var l = e("_tj_rpds") || "";
+            if (!l) {
+                return
+            }
+            f("_tj_rpds", "/", "jd.com");
+            i("http://wq.jd.com/mcoss/rpds/rp?rpid=16&val=" + l)
+        }
+        function d() {
+            c(document, "DOMContentLoaded",
+            function() {
+                jdtj.et = Date.now()
+            })
+        }
+        h();
+        a();
+        d()
+    })(window)
+} catch(ex) {};
+</script> 
+
+<!--WEBPAGEBEGIN@8505-->
+
+<script type="text/javascript">
+window._cgiDisasterRecovery = [
+{name:"卖快",cgikey:"mart",percent:"0",whitelist:""},
+
+{name:"焦点cpt",cgikey:"cpt",percent:"0",whitelist:"{#whitelist#}"},
+
+{name:"焦点cpc",cgikey:"cpc",percent:"0",whitelist:"{#whitelist#}"},
+
+{name:"mportal",cgikey:"mportal",percent:"0",whitelist:"{#whitelist#}"},
+
+{name:"素材详情",cgikey:"materialQuery",percent:"0",whitelist:"{#whitelist#}"},
+
+{name:"multiMart",cgikey:"multiMart",percent:"0",whitelist:"{#whitelist#}"}
+]</script><!--WEBPAGEEND@8505-->
+<script>
+!function(a) {
+    function b() {
+        var a = location.host.indexOf("jd.com") > -1 ? "jd.com": "wanggou.com";
+        g.cookie.set("retina", g.device.retina ? 1 : 0, 43200, "/", a);
+        var b = g.device.scene,
+        c = {
+            weixin: 1,
+            qq: 2,
+            jzyc: 4,
+            jxj: 6,
+            mobile: 3
+        };
+        g.cookie.set("cid", c[b] || 3, 43200, "/", a)
+    }
+    function c() {
+        var a = function(a, b) {
+            this.origin = a,
+            this.path = b,
+            this._iframe = null,
+            this._iframeReady = !1,
+            this._queue = [],
+            this._requests = {},
+            this._id = 0
+        };
+        a.prototype = {
+            op: {
+                WRITE: "W",
+                READ: "R",
+                DEL: "D",
+                CLEAR: "X",
+                GETALLMODULEJS: "M"
+            },
+            constructor: a,
+            init: function() {
+                var a = this;
+                if (!this._iframe) {
+                    if (! (window.postMessage && window.JSON && window.localStorage)) return this._queue.every(function(a) {
+                        a.callback && a.callback(null, null, {
+                            errNo: 1
+                        })
+                    }),
+                    !1;
+                    this._iframe = document.createElement("iframe"),
+                    this._iframe.style.cssText = "position:absolute;width:1px;height:1px;left:-9999px;",
+                    document.body.appendChild(this._iframe),
+                    window.addEventListener ? (this._iframe.addEventListener("load",
+                    function() {
+                        a._iframeLoaded()
+                    },
+                    !1), window.addEventListener("message",
+                    function(b) {
+                        a._handleMessage(b)
+                    },
+                    !1)) : this._iframe.attachEvent && (this._iframe.attachEvent("onload",
+                    function() {
+                        a._iframeLoaded()
+                    },
+                    !1), window.attachEvent("onmessage",
+                    function(b) {
+                        a._handleMessage(b)
+                    }))
+                }
+                this._iframe.src = this.origin.replace("http:", "") + this.path
+            },
+            get: function(a, b) {
+                this._toSend({
+                    key: a
+                },
+                b)
+            },
+            getAllModulejs: function(a) {
+                this._toSend({
+                    key: "getmodulejs",
+                    op: this.op.GETALLMODULEJS
+                },
+                a)
+            },
+            setCookie: function(a, b, c, d) {
+                c = c || 5;
+                var e = (new Date).getTime() + 60 * c * 1e3,
+                f = {
+                    value: b,
+                    expires: e
+                };
+                this.set(a, f, d)
+            },
+            getCookie: function(a, b) {
+                var c = (new Date).getTime(),
+                d = this;
+                this.get(a,
+                function(a, e) {
+                    e && e.expires ? e.expires < c ? d.del(a,
+                    function() {
+                        b && b(a, null, {
+                            errNo: 0
+                        })
+                    }) : b && b(a, e.value, {
+                        errNo: 0
+                    }) : b && b(a, null, {
+                        errNo: 0
+                    })
+                })
+            },
+            set: function(a, b, c) {
+                this._toSend({
+                    key: a,
+                    op: this.op.WRITE,
+                    value: b
+                },
+                c)
+            },
+            del: function(a, b, c) {
+                this._toSend({
+                    key: a,
+                    op: this.op.DEL,
+                    value: b
+                },
+                c)
+            },
+            clear: function(a) {
+                this._toSend({
+                    op: this.op.CLEAR
+                },
+                a)
+            },
+            _toSend: function(a, b) {
+                if (document.domain == this.origin.replace("http://", "")) try {
+                    var c, d = localStorage;
+                    if ("M" === a.op) {
+                        var e = [];
+                        for (var f in localStorage) / ^_m_ / .test(f) && e.push({
+                            key: f,
+                            obj: localStorage.getItem(f)
+                        });
+                        b && b(a.key, e, {
+                            errNo: 0
+                        })
+                    } else "W" === a.op ? (d.setItem(a.key, JSON.stringify(a.value)), b && b({
+                        errNo: 0
+                    })) : "D" === a.op ? (d.removeItem(a.key), b && b({
+                        errNo: 0
+                    })) : "X" === a.op ? (d.clear(), b && b({
+                        errNo: 0
+                    })) : (c = JSON.parse(d.getItem(a.key)), b && b(a.key, c, {
+                        errNo: 0
+                    }))
+                } catch(g) {
+                    b && b(a.key, [], {
+                        errNo: 1
+                    })
+                } else {
+                    var h = {
+                        request: {
+                            key: a.key,
+                            id: ++this._id,
+                            op: a.op,
+                            value: a.value
+                        },
+                        callback: b
+                    };
+                    this._iframeReady ? this._sendRequest(h) : this._queue.push(h),
+                    this._iframe || this.init()
+                }
+            },
+            _sendRequest: function(a) {
+                this._requests[a.request.id] = a,
+                this._iframe.contentWindow.postMessage(JSON.stringify(a.request), this.origin)
+            },
+            _iframeLoaded: function() {
+                if (this._iframeReady = !0, this._queue.length) {
+                    for (var a = 0,
+                    b = this._queue.length; b > a; a++) this._sendRequest(this._queue[a]);
+                    this._queue = []
+                }
+            },
+            _handleMessage: function(a) {
+                if (a.origin == this.origin) {
+                    var b = JSON.parse(a.data);
+                    this._requests[b.id].callback && this._requests[b.id].callback(b.key, b.value),
+                    delete this._requests[b.id]
+                }
+            }
+        },
+        g.store = new a("http://wqs.jd.com", "/portal/wx/storageBridge2.shtml")
+    }
+    function d() {
+        if ("1" == g.cookie.get("webp")) g.device.webp = !0;
+        else if ( - 1 !== navigator.userAgent.toLowerCase().indexOf("webp")) g.device.webp = !0,
+        g.cookie.set("webp", 0, 5256e3, "/", "jd.com");
+        else {
+            var a = new Image,
+            b = setTimeout(function() {
+                a.onload = a.onerror = null,
+                a = null
+            },
+            500);
+            a.onload = function() {
+                clearTimeout(b),
+                g.device.webp = a.width > 0 && a.height > 0,
+                g.cookie.set("webp", g.device.webp ? 1 : 0, 5256e3, "/", "jd.com")
+            },
+            a.onerror = function() {
+                clearTimeout(b),
+                g.cookie.set("webp", 0, 5256e3, "/", "jd.com"),
+                g.device.webp = !1
+            },
+            a.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA"
+        }
+    }
+    function e() {
+        if ("qq" == g.device.scene) {
+            var a = /(wanggou.com|qq.com|jd.com)$/i.exec(location.host),
+            b = g.url.getUrlParam("sid"),
+            c = g.url.getUrlParam("uk"),
+            d = g.cookie.get("sid"),
+            e = g.cookie.set;
+            a && 2 === a.length && (host = a[1], b && (e("sid", b, 43200, "", host), d != b && (e("wg_skey", "", 60, "", host), e("wg_uin", "", 60, "", host), e("wq_skey", "", 60, "", host), e("wq_uin", "", 60, "", host))), c && e("uk", c, 43200, "", host))
+        }
+    }
+    function f() {
+        var a = [].slice.call(document.images);
+        arguments.callee.counter != a.length && (a.forEach(function(a) {
+            a.onerror || (a.onerror = function() {
+                g.report.imageLoadError(this)
+            })
+        }), arguments.callee.counter = a.length),
+        setTimeout(arguments.callee, 33)
+    }
+    var g = {},
+    h = [];
+    g.send = function(a) {
+        var b = (new Date).getTime(),
+        c = "_COUNTRD" + b++;
+        try {
+            window[c] = new Image,
+            window[c].src = a
+        } catch(d) {}
+    },
+    g.sendJs = function(a, b) {
+        function c() {
+            d && (d.onload = d.onreadystatechange = d.onerror = null, d.parentNode && d.parentNode.removeChild(d), d = null)
+        }
+        var d = document.createElement("script");
+        b = b || {},
+        d.charset = b.charset || "utf-8",
+        d.onload = d.onreadystatechange = function() { (/loaded|complete/i.test(this.readyState) || -1 == navigator.userAgent.toLowerCase().indexOf("msie")) && (b.onLoad && b.onLoad(), c())
+        },
+        d.onerror = function() {
+            b.onError && b.onError(),
+            c()
+        },
+        d.src = a,
+        b.defer && (d.defer = "defer"),
+        b.async && (d.async = "async"),
+        b.crossorigin && d.setAttribute("crossorigin", "true"),
+        document.getElementsByTagName("head")[0].appendChild(d)
+    },
+    g.sendJsByDomain = function(a) {
+        var b = arguments.callee;
+        a.tryTimes = a.tryTimes || 0,
+        a.timeStamp = a.timeStamp || "",
+        g.sendJs([a.url, window.GLOBAL_CROSSORIGIN ? (a.url.indexOf("?") > 0 ? "&": "?") + "host=" + location.host: "", a.timeStamp].join(""), {
+            onError: function() {
+                a.tryTimes++;
+                var c = a.tryTimes;
+                1 === c ? (a.timeStamp = "&r=" + Date.now(), b(a)) : 2 === c && (a.timeStamp = "", a.crossOrigin = !1, b(a))
+            },
+            onLoad: a.onLoad,
+            defer: a.defer,
+            async: a.async,
+            crossorigin: a.crossOrigin
+        })
+    },
+    g.device = {
+        retina: window.devicePixelRatio >= 1.5,
+        sticky: function() {
+            var a, b = "-webkit-sticky",
+            c = document.createElement("i");
+            return c.style.position = b,
+            a = c.style.position,
+            c = null,
+            a === b
+        } (),
+        scene: function() {
+            var a = navigator.userAgent.toLowerCase();
+            return a.indexOf("micromessenger") > -1 ? "weixin": /qq\/([\d\.]+)*/.test(a) ? "qq": /jzyc\/\d\.\d/.test(a) ? "jzyc": /jxj\/([.\d])*/.test(a) ? "jxj": "mobile"
+        } (),
+        webp: !1,
+        getNetwork: function(a) {
+            try {
+                var b = g.cookie.get("network");
+                if (b) return a(b);
+                "qq" == this.scene ? mqq.device.getNetworkType(function(b) {
+                    switch (1 * b) {
+                    case 0:
+                        nt = b;
+                        break;
+                    case 1:
+                        nt = "wifi";
+                        break;
+                    case 2:
+                        nt = "2G";
+                        break;
+                    case 3:
+                        nt = "3G";
+                        break;
+                    case 4:
+                        nt = "4G"
+                    }
+                    g.cookie.set("network", nt, 2, "/", "jd.com"),
+                    a(nt)
+                }) : "weixin" == this.scene ? (console.log("head getNetworkType "), wx.getNetworkType({
+                    success: function(b) {
+                        console.log(b.networkType);
+                        var c = b.networkType;
+                        /wifi/i.test(c) ? c = "wifi": /4g|3g+/i.test(c) ? c = "4g": /3g/i.test(c) ? c = "3g": /2g/i.test(c) && (c = "2g"),
+                        console.log(c),
+                        g.cookie.set("network", c, 2, "/", "jd.com"),
+                        a(c)
+                    },
+                    fail: function() {
+                        a("unknown")
+                    }
+                })) : a("unknown")
+            } catch(c) {
+                a("unknown")
+            }
+        }
+    },
+    g.performance = {
+        useScaleImg: function() {
+            var a = g.cookie.get("network"),
+            b = g.device.retina;
+            return "wifi" != a || !b
+        },
+        getScaleImg: function(a) {
+            var b = a;
+            if (/(m|img\d{2})\.360buyimg\.com/.test(a) && /\.(jpg|jpeg|png)$/.test(a) && (/jfs\//.test(a) || /com\/n\d{1,2}\//.test(a)) && (g.device.webp ? b = a + ".webp": /\.(jpg|jpeg)$/.test(a) && (b = a + "!q80.jpg"), h.length)) {
+                var c = b.match(/img\d{2}\.360buyimg\.com/)[0];
+                h.indexOf(c) > -1 && (b = b.replace(c, g.url.getValidImageDomain()))
+            }
+            return b ? b.replace(/^http:/, "") : ""
+        }
+    },
+    g.img = {
+        useScaleImg: g.performance.useScaleImg,
+        getScaleImg: g.performance.getScaleImg,
+        getImgUrl: function(a, b, c) {
+            if (!/(m|img\d{2})\.360buyimg\.com/.test(a) || !/\.(jpg|jpeg|png|webp)$/.test(a) || !/jfs\//.test(a)) return a ? a.replace(/^http:/, "") : "";
+            if (!b && !c) return this.getScaleImg(a);
+            b && !c && (c = b),
+            !b && c && (b = c);
+            var d = /\/s\d{1,3}x\d{1,3}_jfs\//.test(a);
+            return a = d ? a.replace(/\/s\d{1,3}x\d{1,3}_jfs\//, "/s" + b + "x" + c + "_jfs/") : a.replace(/\/jfs\//, "/s" + b + "x" + c + "_jfs/"),
+            this.getScaleImg(a)
+        }
+    },
+    g.report = {
+        itil: function() {
+            return ! 1
+        },
+        rd: function(a) {
+            function b() {
+                if (d.length) {
+                    var a = d.shift();
+                    c(a),
+                    setTimeout(b, 30)
+                }
+            }
+            function c(a) {
+                a && (a = "[object Object]" == {}.toString.call(a) ? a: {
+                    ptag: a
+                },
+                window.ja.trace(a), ECC.cloud.report.trace(a))
+            }
+            var d; ! this._rdList && (this._rdList = []),
+            window.ECC_cloud_report_pv ? (c(a), d = this._rdList, b()) : this._rdList.push(a)
+        },
+        badJs: function(a) {
+            var b = new Image;
+            a && a.stack ? a = a.stack.toString() : "object" == typeof a && window.JSON && window.JSON.stringify && (a = JSON.stringify(a)),
+            b.src = "http://wq.jd.com/webmonitor/collect/badjs.json?Content=" + a + "&t=" + Math.random()
+        },
+        umpBiz: function(a) {
+            var b, c = window.GLOBAL_UMP_PERCENT;
+            if (void 0 !== c && Math.floor(10 * Math.random()) <= c) return ! 1;
+            if (a instanceof Array) {
+                b = [];
+                for (var d = 0; d < a.length; d++) b.push(a.bizid + "|" + a.operation + "|" + a.result + "|" + a.source + "|" + encodeURIComponent(a.message.replace(/,/g, " ")));
+                b = b.join(",")
+            } else b = a.bizid + "|" + a.operation + "|" + a.result + "|" + a.source + "|" + encodeURIComponent(a.message.replace(/,/g, " "));
+            var e = new Image;
+            e.src = "http://wq.jd.com/webmonitor/collect/biz.json?contents=" + b + "&t=" + Math.random()
+        },
+        imageLoadError: function(a) {
+            if (a && a.src) {
+                var b = a.src.match(/img(\d{2})\.360buyimg\.com/);
+                if (b && b.length) {
+                    var c = b[0],
+                    d = b[1],
+                    e = {
+                        10 : 1,
+                        11 : 2,
+                        12 : 3,
+                        13 : 4,
+                        14 : 5,
+                        20 : 6,
+                        30 : 7
+                    };
+                    if (this.umpBiz({
+                        bizid: 41,
+                        operation: 1,
+                        result: e[d],
+                        source: 0,
+                        message: a.src + " load error!"
+                    }), !a.getAttribute("data-reload")) {
+                        var f = g.url.getValidImageDomain(c);
+                        f && (a.src = a.src.replace(c, f), a.setAttribute("data-reload", "1"))
+                    }
+                }
+            }
+        }
+    },
+    g.cookie = {
+        get: function(a) {
+            var b = new RegExp("(^| )" + a + "(?:=([^;]*))?(;|$)"),
+            c = document.cookie.match(b);
+            return c ? c[2] ? unescape(c[2]) : "": null
+        },
+        set: function(a, b, c, d, e, f) {
+            var g = new Date,
+            c = arguments[2] || null,
+            d = arguments[3] || "/",
+            e = arguments[4] || null,
+            f = arguments[5] || !1;
+            c ? g.setMinutes(g.getMinutes() + parseInt(c)) : "",
+            document.cookie = a + "=" + escape(b) + (c ? ";expires=" + g.toGMTString() : "") + (d ? ";path=" + d: "") + (e ? ";domain=" + e: "") + (f ? ";secure": "")
+        },
+        del: function(a, b, c, d) {
+            var e = this.get(a);
+            if (null != e) {
+                var f = new Date;
+                f.setMinutes(f.getMinutes() - 1e3),
+                b = b || "/",
+                document.cookie = a + "=;expires=" + f.toGMTString() + (b ? ";path=" + b: "") + (c ? ";domain=" + c: "") + (d ? ";secure": "")
+            }
+        }
+    },
+    g.preload = {},
+    g.url = {
+        setHash: function(a) {
+            setTimeout(function() {
+                location.hash = a
+            },
+            0)
+        },
+        getHash: function(a) {
+            var b = a || location.hash;
+            return b ? b.replace(/.*#/, "") : ""
+        },
+        getHashParam: function(a) {
+            var b = this.getHash().match(new RegExp("(^|&)" + a + "=([^&]*)(&|$)"), "i");
+            return null != b ? b[2] : ""
+        },
+        getUrlParam: function(a) {
+            var b = arguments[1] || window.location.search,
+            c = new RegExp("(^|&)" + a + "=([^&]*)(&|$)", "i"),
+            d = b.substr(b.indexOf("?") + 1).match(c);
+            return null != d ? d[2] : ""
+        },
+        parseUrl: function(a) {
+            var b = document.createElement("a");
+            return b.href = a,
+            {
+                source: a,
+                protocol: b.protocol.replace(":", ""),
+                host: b.hostname,
+                port: b.port,
+                query: b.search,
+                params: function() {
+                    for (var a, c = {},
+                    d = b.search.replace(/^\?/, "").split("&"), e = d.length, f = 0; e > f; f++) d[f] && (a = d[f].split("="), c[a[0]] = a[1]);
+                    return c
+                } (),
+                file: (b.pathname.match(/([^\/?#]+)$/i) || [, ""])[1],
+                hash: b.hash.replace("#", ""),
+                path: b.pathname.replace(/^([^\/])/, "/$1"),
+                relative: (b.href.match(/tps?:\/\/[^\/]+(.+)/) || [, ""])[1],
+                segments: b.pathname.replace(/^\//, "").split("/")
+            }
+        },
+        addRd: function(a, b) {
+            a = a.replace(/？/g, "?");
+            var c = /ptag[=,]\d+\.\d+\.\d+/i,
+            d = /\?/.test(a);
+            return hasAnchor = a.indexOf("#") > -1,
+            a = c.test(a) ? a.replace(c, "PTAG=" + b) : hasAnchor ? a.replace("#", (d ? "&": "?") + "PTAG=" + b + "#") : a + (d ? "&": "?") + "PTAG=" + b
+        },
+        smartboxUrl: "http://wq.360buyimg.com/js/common/dest/jd.smartbox.min.js?t=201511241543",
+        getValidImageDomain: function(a) {
+            var b = ["img10.360buyimg.com", "img11.360buyimg.com", "img12.360buyimg.com", "img13.360buyimg.com", "img14.360buyimg.com", "img20.360buyimg.com", "img30.360buyimg.com"],
+            c = h.concat();
+            a && -1 == c.indexOf(a) && c.push(a);
+            var d = b.filter(function(a) {
+                return - 1 == c.indexOf(a)
+            });
+            return d.length ? d[Math.floor(Math.random() * d.length)] : ""
+        }
+    },
+    g.events = function() {
+        var a, b, c, d, e, f;
+        return b = {},
+        f = this,
+        a = function(a, c) {
+            var d, e;
+            return d = null != (e = b[a]) ? e: b[a] = [],
+            d.push(c)
+        },
+        c = function(b, c) {
+            return d(b),
+            a(b, c)
+        },
+        d = function(a) {
+            var c;
+            return null != (c = b[a]) ? c.length = 0 : void 0
+        },
+        e = function() {
+            var a, c, d, e, g, h;
+            for (h = Array.prototype.shift.call(arguments), c = null != (g = b[h]) ? g: b[h] = [], d = 0, e = c.length; e > d; d++) if (a = c[d], a.apply(f, arguments) === !1) return ! 1
+        },
+        {
+            listen: a,
+            one: c,
+            remove: d,
+            trigger: e
+        }
+    } (),
+    g.sqapi = function() {
+        var a = "sq_api_ready";
+        return {
+            ready: function(b) {
+                window.mqq ? b && b.call(null) : g.events.listen(a, b)
+            }
+        }
+    } (),
+    g.wxapi = function() {
+        if ("weixin" == g.device.scene) {
+            var a, b = "wx_api_ready",
+            c = "wx_cfg_init",
+            d = "wx_api_error",
+            e = "wx_js_load",
+            f = "wx_sign_get",
+            h = !1;
+            return funcs = [],
+            initSdkCofig = function() {
+                a && window.wx && g.events.trigger(c, a)
+            },
+            {
+                ready: function(c, i, j) {
+                    if (i) {
+                        a && (a = null);
+                        var k = function() {
+                            g.events.trigger(f, !0)
+                        };
+                        window.wx ? k() : g.events.listen(e, k)
+                    }
+                    a && window.wx && h ? c && c.call(null, a) : c && g.events.listen(b, c),
+                    j && g.events.listen(d, j)
+                },
+                signatureReady: function(b) {
+                    a = b,
+                    initSdkCofig()
+                },
+                getSignature: function() {
+                    return a
+                },
+                jsReady: function(a) {
+                    g.events.listen(c, a),
+                    g.events.trigger(e),
+                    g.events.remove(e),
+                    initSdkCofig()
+                },
+                wxReady: function() {
+                    h = !0
+                }
+            }
+        }
+    } (),
+    g.calendar = {},
+    g.GLOBAL_CONFIG = {
+        CK_GQP: "_ws_nav_gwq",
+        CK_HOMEPAGE: "_ws_home",
+        CK_WX_CURTAINAD: "curtainAdShow",
+        CK_SQ_FOOT_AD: "ckfootAdShow",
+        CK_SQ_HOMEPAGE: "qqmobile_homepage",
+        CK_NETWORK: "network",
+        CK_RETINA: "retina",
+        CK_CID: "cid",
+        CK_WEBP: "webp",
+        CK_TIPSKEY: "jd_newversion_062021"
+    },
+    g.log = function() {
+        var a = [];
+        return {
+            add: function(b) {
+                a.push(b)
+            },
+            get: function() {
+                return a
+            }
+        }
+    } (),
+    g.disasterRecovery = function() {
+        function a(a) {
+            switch (a) {
+            case "mart":
+                return window._page_cgi_static_mart === !0;
+            case "cpt":
+                return window._page_cgi_static_cpt === !0;
+            case "cpc":
+                return window._page_cgi_static_cpc === !0;
+            case "mportal":
+                return window._page_cgi_static_mportal === !0;
+            case "materialQuery":
+                return window._page_cgi_static_materialQuery === !0;
+            case "multiMart":
+                return window._page_cgi_static_multiMart === !0
+            }
+            return ! 0
+        }
+        var b = g.cookie.get("visitkey"),
+        c = function(a) {
+            return Math.floor(Math.random() * a)
+        },
+        d = {},
+        e = g.cookie.get("whitetag"),
+        f = window._cgiDisasterRecovery[0].whitelist.replace(/\s*/g, "").split(","),
+        h = g.cookie.get("wq_uin");
+        return window._cgiDisasterRecovery.forEach(function(g) {
+            var i = 1 * g.percent,
+            j = b ? i > b % 10 : c(10) < i,
+            k = "1" == e || h && f.indexOf(h) > -1 || j || a(g.cgikey);
+            d[g.cgikey] = {
+                percent: i,
+                useStaticUrl: k
+            }
+        }),
+        d
+    } (),
+    b(),
+    d(),
+    e(),
+    f(),
+    c(),
+    window[a] = g
+} ("JD");
+</script>
+<script>
+window.closeSearchEntrance = false;  //控制smartbox是否展示(容灾用)
+window.smartboxGrayStrategy = 99;  //smartbox灰度百份比(灰度到直出版,99全量)
+window._useStaticItemLink = false;  //true切换商详静态版
+window._staticItemLinkRate = 10;//0-10,0表示不切静态版，10表示100%为静态版
+window._loadCoupon = true;  //false不加载优惠券  -- 商祥用
+window._loadYanbao = true;  //false不加载延保  -- 商祥用
+window._searchWhiteList = '357661421|93219600|88528398|44668570|497195833|1066176|404139319|394757186|263096207|1507902953|15608209';  //搜索用灰度白名单
+function getItemLink(str, ptag){
+	var link = str;
+	if(parseInt(str) == str){ //传入sku,链接生成
+		var linkpre = 'http://wq.jd.com/item/view?sku=';
+		if(window._useStaticItemLink){  //容灾开关(切换到wqs版本)
+			linkpre = 'http://wqs.jd.com/item/jd.shtml?sku=';
+		}
+		link = linkpre + str;
+	}else{ //传入链接,容灾转换
+		if(window._useStaticItemLink){
+			link = link.replace("http://wq.jd.com/item/view","http://wqs.jd.com/item/jd.shtml");
+		}
+	}
+	return ptag ? (link + '&ptag=' + ptag) : link;
+}
+</script>
+
+<script>
+window.wxPayDomain = 'http://wqs.jd.com/';
+window.jdDomian01 = 'http://wei.jd.com/deal/'; (function() {
+    try {
+        var isWhiteLIstToBJ = false,
+        whiteList = ['2354805240', '1596161890', '4663256091', '404645486x'],
+        toSZRate = 0;
+        var getCookie = JD.cookie.get;
+        function isPageOfHeYueOrPingou() {
+            var u = window.location.href,
+            r = /(view=pingou)/i;
+            return r.test(u)
+        }
+        var uin = getCookie("wq_uin") || getCookie("wg_uin"),
+        visitkey = getCookie("visitkey"),
+        tmp = (uin || "0").substr( - 2),
+        sk = parseInt(tmp),
+        pin = getCookie("pin") || getCookie("jdpin"),
+        isV2,
+        dateBase,
+        rateMax,
+        rate2 = false,
+        ua = navigator.userAgent,
+        isJZEC = false;
+        if (getCookie("cid") == 4 || /JZYC/.test(ua)) {
+            isJZEC = true
+        }
+        dateBase = (new Date().getDate() % 10) * 10;
+        rateMax = dateBase + toSZRate;
+        if (rateMax > 100) {
+            if (sk) {
+                rate2 = sk < (rateMax - 100)
+            }
+            rateMax = 100
+        }
+        isV2 = (toSZRate == 0) || !sk || !(toSZRate && sk && ((sk >= dateBase && sk < rateMax) || rate2));
+        if ((isV2 && !isPageOfHeYueOrPingou()) || isJZEC) {
+            window.jdDomian01 = "http://wq.jd.com/";
+            if (location.href.indexOf("http://wq.jd.com/item/jd") == 0 || location.href.indexOf("http://wq.jd.com/item/view") == 0) {
+                window.jdDomian01 = "http://wq.jd.com/deal/"
+            }
+        }
+        if ((uin && whiteList.indexOf(uin) > -1) || (pin && whiteList.indexOf(pin) > -1)) {
+            if (isWhiteLIstToBJ && !isPageOfHeYueOrPingou()) {
+                window.jdDomian01 = "http://wq.jd.com/";
+                if (/\/item\/jd\d?\.shtml|item\/view/.test(location.href)) {
+                    window.jdDomian01 = "http://wq.jd.com/deal/"
+                }
+            } else {
+                window.jdDomian01 = "http://wei.jd.com/deal/"
+            }
+        }
+        window.buyLink = window.wxPayDomain + "order/wq.confirm.shtml";
+        window._setGrayByUin = function() {
+            var i, l, gray, mlist = this.gray;
+            for (i = 0, l = mlist.length; i < l; i++) {
+                gray = mlist[i];
+                if (gray.rate == 99 || (uin && (gray.whiteList.indexOf(uin) > -1 || uin.substr( - 2) <= gray.rate)) || (pin && gray.whiteList.indexOf(pin) > -1)) {
+                    this[gray.targetName] = gray.cgi
+                }
+            }
+        };
+    } catch(e) {
+        console.log("下单页灰度出错：" + e);
+    }
+})();
+</script>
+
+
+<script type="text/javascript">
+window.speedTimePoint&&(speedTimePoint[7]=new Date());
+</script>
+<div id="navContainer"></div>
+
+<div  id="bigShow1" style="display:none">
+    <div class="wx_bar_guide_area_1">
+    <div class="wx_pop_bnr_box_1">
+        <div class="close"></div>
+        <div class="con" id="bigShow1Inner">
+       
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="dacu_banner_mask" style="display: none"></div>
+ <div id="topsearchbar" class="wx_search wx_search_chanel_mode" data-switchstyle="1" data-showcurtain="0"  data-hotrd="37080.5.4" data-searchrd="37080.5.4" data-placeholder="" data-mpj="118">
+      <div class="wx_search_inner">
+        <div class="wx_bar_cate">
+            <span id="__cate" ptag="37080.5.1" class="icon_cate"></span>
+        </div>
+        <form action="" method="get" class="wx_search_form" onsubmit="return false;">
+            <input name="key" class="wx_search_txt" placeholder="" ptag="37080.5.2" type="search" id="topSearchTxt" autocomplete="off">
+            <a class="wx_search_clear" href="javascript:;" id="topSearchClear" style="display: none;">x</a>
+        </form>
+        <div class="wx_search_act">
+            <a href="javascript:;" class="wx_search_pt" id="topCurtainBtn" style="display:none"></a>
+            <a href="javascript:;" id="topSearchbtn" class="wx_search_ov" style="display:none"></a>
+            <span  id="topSearchCbtn" class="wx_search_btn" style="display:none">取消</span>
+        </div>
+    </div>
+
+ </div>
+ <style type="text/css">
+    .WX_tab_fixed .sign_c_tip{display:none;}
+    </style>
+<script>
+if(JD.url.getUrlParam("title")  ){
+     document.getElementById("topsearchbar").dataset.switchstyle="0";
+}
+</script>
+
+
+
+<script type="text/javascript">
+window.speedTimePoint&&(speedTimePoint[9]=new Date());//342
+</script>
+<div class="wx_side_menu">
+    <div class="mod_alert_mask"></div>
+      <div class="menu_box">
+        <div class="inner">
+            <div class="menu_hd" >
+            </div>
+            <div class="menu_bd" class="menu_bd stopmove" id="yScroll1" style="display:none;overflow:hidden;position:absolute" >
+                <div class="menu_list" style="display:none;">
+                    <!--WEBPAGEBEGIN@6431-->
+                    <div class="item" data-href="http://wq.jd.com/mcoss/mportal/show?tabid=12&tpl=12&PTAG=37080.12.2" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t1072/232/643107197/1395/df47e911/5538d952N8e6a4676.png) no-repeat; background-size: 100%;">
+                        </i>
+                        京东超市
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wqs.jd.com/portal/wx/jiadianguan.shtml?PTAG=37080.12.3" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t901/38/652412697/1088/b8a1f61b/5538d949N70218103.png) no-repeat; background-size: 100%;">
+                        </i>
+                        家电馆
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wqs.jd.com/portal/wx/lady/lady.shtml?PTAG=37080.12.11" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t1837/30/91960562/1681/d6dd31cb/55ee3869Na07bc98c.png) no-repeat; background-size: 100%;">
+                        </i>
+                        女装馆
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wqs.jd.com/portal/wx/gentleman/index.shtml?PTAG=37080.12.12" data-dis="new" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t2170/5/1081405605/1759/56899f39/563c401aN9d51774d.png) no-repeat; background-size: 100%;">
+                        </i>
+                        男装馆
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wqs.jd.com/portal/wx/yundongguan.shtml?PTAG=37080.12.4" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t1063/27/661419772/1669/6ff61fa/5538d957Ndf326e58.png) no-repeat; background-size: 100%;">
+                        </i>
+                        运动馆
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wq.jd.com/mcoss/mportal/show?tpl=15&tabid=14&PTAG=37080.12.5" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t751/100/1378588789/1635/455930a8/5538d961N680d0208.png) no-repeat; background-size: 100%;">
+                        </i>
+                        首发
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wq.jd.com/mcoss/mportal/show?tpl=14&tabid=5&PTAG=37080.12.6" data-dis="" data-strong="1">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t817/363/678234978/1370/3be55859/5538d945N21482b1e.png) no-repeat; background-size: 100%;">
+                        </i>
+                        品牌
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wq.jd.com/mcoss/mportal/show?tabid=9&tpl=9&PTAG=37080.12.7" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t925/297/578435459/1529/4e89c4c7/5538d94eN83c7f182.png) no-repeat; background-size: 100%;">
+                        </i>
+                        特价
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div>
+                    <div class="item" data-href="http://wqs.jd.com/portal/wx/category_m.shtml?PTAG=37080.12.9" data-dis="" data-strong="">
+                        <i class="icon_m" style="background: url(http://img11.360buyimg.com/jdphoto/s40x40_jfs/t1162/236/1270001930/571/d2b27ace/558cf6e2N3028b55a.png) no-repeat; background-size: 100%;">
+                        </i>
+                        全部商品分类
+                        <span class="new" style="display:none">
+                        </span>
+                        <span class="hot" style="display:none">
+                        </span>
+                    </div><!--WEBPAGEEND@6431-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wx_bar_guide_area" style="display:none">
+    <div class="wx_guide_box">
+        <div class="step_new">
+            <span class="box_1"></span>
+            <span class="box_2"></span>
+            <span class="box_3"></span>
+            <a href="javascript:;" class="box_4">马上体验</a>
+        </div>
+    </div>
+</div>
+
+<div id="smartboxBlock"></div>
+<script type="text/javascript">
+    window.speedTimePoint&&(speedTimePoint[10]=new Date());//342
+</script>
+<script>
+
+</script>
+<script type="text/javascript">
+    window.speedTimePoint&&(speedTimePoint[11]=new Date());//342+
+    (function() {
+         JD.calendar&&JD.calendar.ISZHONGQIU &&( document.getElementById("topsearchbar").className = document.getElementById("topsearchbar").className + ' wx_search_zhongqiu');
+    })();
+</script>
+
+<div class="WX_tab_bnr" id="topTong" style="display:none"></div>
+<div class="WX_tab Top_tab wx_tab_bnr_mode" id="toolbarHead">
+    <div class="WX_tab_wrap">
+        <span class="WX_tab_inner">
+            <a id="__xinTab" ptag="37035.8.3" href="http://wq.jd.com/mcoss/mportal/show?tpl=15&tabid=14&ptag=37035.8.3">首发</a>
+            <a id="__brandTab" ptag="37035.8.1" href="http://wq.jd.com/mcoss/mportal/show?tpl=14&tabid=5&ptag=37035.8.1">品牌</a>
+            <a id="__juhuiTab" ptag="37035.8.2" href="http://wq.jd.com/mcoss/mportal/show?tabid=9&tpl=9&ptag=37035.8.2">特价</a>
+            <a id="__weiTab" style="display:none" href="http://wqs.jd.com/portal/wx/microstore.shtml?ptag=37035.8.5">微店</a>
+        </span>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    window.getMicroStoreRedPoint=function(cb){return;
+        if(typeof(cb)!='function'){return}
+        if(window.location.href.indexOf('microstore.shtml')>0){return}
+        var callback=cb,jsonCallbackName='jsonpCBMicroStoreRedPoint',beginTime,now=new Date(),sc=document.createElement('script'),info,infoKey='microstoreredpoint';
+        var recordDate=now.getFullYear()+'-'+now.getMonth()+'-'+now.getDate();
+        try{info=JSON.parse(localStorage.getItem(infoKey))||{date:0};}catch(e){info={date:0}}
+        if(info.date==recordDate){callback(!!0);return}
+        if(info.date==0){beginTime=now.getTime()-3600*1000*24}
+        else{
+            var tempt=new Date(0),arr=info.date.split('-');
+            tempt.setFullYear(arr[0]-0);tempt.setMonth(arr[1]-0);tempt.setDate(arr[2]-0);
+            beginTime=tempt.getTime();
+        }
+        sc.onerror=function(){callback(false)};
+        window[jsonCallbackName]=function(d){
+            var val=false;
+            if(d.ret==0){
+                if(d.data.length!=0&&d.favshopnum!=0){val=true}
+                info.date=recordDate;localStorage.setItem(infoKey,JSON.stringify(info));
+            }
+            callback(val);
+        };
+        sc.src='http://wq.jd.com/weidian/column/QueryNewSkus?callback='+jsonCallbackName+'&begintime='+(beginTime/1000).toFixed(0)+'&size=1';
+        document.head.appendChild(sc);
+    }
+</script>
+
+
+<script type="text/javascript">
+    window.speedTimePoint&&(speedTimePoint[8]=new Date());
+    window._navfoot = {};
+    window.GLOBAL_WX_HEADER=true;
+    new Date().getDate()>21&& (document.getElementById("__weiTab").style.display="none");
+</script>
+
+<!-- 预加载CSS -->
+<script>
+    JD.preload._css_detail_detail = "http://wq.360buyimg.com/c/=/fd/base/css/base/base.s.min.css,
+    /fd/base/css/base/mod_nav_head.s.min.css,
+    /fd/base/css/base/mod_aside.s.min.css,
+    /fd/base/css/base/mod_bar_download.s.min.css,
+    /fd/base/css/detail/area_select.s.min.css,
+    /fd/base/css/detail/detail.s.min.css?t=1448014964";
+</script>
+<script>
+    JD.preload._css_search_v2_search_v2 = "http://wq.360buyimg.com/c/=/fd/base/css/base/base.s.min.css,
+    /fd/base/css/base/mod_bar_download.s.min.css,
+    /fd/base/css/search_v2/common/_mod_hd_bar.s.min.css,
+    /fd/base/css/search_v2/common/_mod_search_filter_layer.s.min.css,
+    /fd/base/css/search_v2/search_v2.s.min.css?t=1447035852";
+</script>
+
+
+<script>
+    speedTimePoint[2] = new Date(); // 头部加载时间
+    window.recordSpeedTime2 = function(){ // 品牌
+        !speedTimePoint[5] && (speedTimePoint[5] = new Date());
+    };
+</script>
+<div class="wx_wrap">
+    <style type="text/css">
+        .mall_item_more{margin: 10px;}
+        .mall_item_more .btn_more{
+            background: #F3F3F3;
+            border: 1px solid #DEDEDE;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px 10px;
+            border-radius: 3px;
+            color: #333;
+        }
+    </style>
+    <div id="brandDiv">
+        <div class="mod_banner" id="bannerDiv">
+            <a href="http://wqs.jd.com/event/brand/ganenfanchangji/index.shtml?ptag=37014.2.1&DAP=2197132410274965475:844710721560814016:10:489995&pps=focus.0000000a030003%3A00077a0b00015445000015f400000773%3A%3A630008">
+                <img src="http://img11.360buyimg.com/focus/jfs/t2572/271/480990392/29857/8f14ebfc/564f13cfN1d6910df.jpg.webp" onload="recordSpeedTime2();">
+            </a>
+        </div>
+        <div class="category_nav_wrap"  id="navDiv">
+            <div class="category_nav">
+                <div class="category_nav_list">
+                    <ul id="filterBar">
+                        <li><a href="javascript:;" ptag="37014.1.15">上新</a></li>
+                        <li><a href="javascript:;"  ptag="37014.1.16">热卖</a></li>
+                        <li><a href="javascript:;"  ptag="37014.1.17">限时</a></li>
+                        <li><a href="javascript:;"  ptag="37014.1.19">预告</a></li>
+                    </ul>
+                </div>
+                <div class="category_nav_more">
+                    <span class="category_nav_btn"  id="navMore">分类</span>
+                    <ul id="temaiNav"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="nowDiv">
+            <p class="mall_title_small"><span id="nowTitle">每天<em>9:00</em>准时上新</span></p>
+            <div id="nowList"></div>
+        </div>
+        <div class="mall_item_more">
+            <a href="javascript:;" id="nextTabBrand" class="btn_more">发现更多热卖品牌</a>
+        </div>
+        <div id="previewDiv" style="display: none">
+            <!--<p class="mall_title_large">明日预告</p>-->
+            <div class="mall_title preview_title">
+                <h3>明日疯抢品牌</h3>
+            </div>
+            <div id="previewList"></div>
+        </div>
+
+        <script type="text/html" id="brand_tpl">
+            <%
+            for(var i = 0, j = list.length; i < j; i++){
+            var item = list[i];
+            if(item.dwShowType != 4){
+            %>
+            <div class="mall_item">
+                <a href="<%= item.sUrl %>" class="mall_item_content" weixinkey="<%= item.sMaterialDesc %>**<%= item.sMaterialUrl1 %>**<%= item.sUserData1 %>**<%= item.sMaterialName %>" manualclick="yes" isTop="<%= item.dwShowPropertyMask %>">
+                    <img class="image" <%= i > 2 ? 'init_' : '' %>src="<%= JD.performance.getScaleImg(item.sMaterialUrl) %>">
+                    <span class="timer<%= item.isLastDay ? ' timer_2' : ''%>"><%= item.limit %></span>
+                    <% if(item.sUserData5&&item.sUserData5 != "0"){ %>
+                    <span class="tag"><%= item.sUserData5 %></span>
+                    <% } %>
+                </a>
+                <div class="mall_item_title">
+                    <p>
+                        <i class="icon_s_618" style="display:none;"></i>
+                        <% if(item.sUserData2 == '1'){ %>
+                        <span class="sign">京东自营</span>
+                        <% } %>
+                        <%= item.sMaterialName %>
+                    </p>
+                    <div><%= item.sUserData1 != 10 ? ('<em>' + item.sUserData1 + '折起</em>') : '' %></div>
+                </div>
+            </div>
+            <%
+            }else{
+            var _remindTime = (item.dwShowBeginTime - 0) * 1000,
+            _month = new Date(_remindTime).getMonth() + 1,
+            _day = new Date(_remindTime).getDate(),
+            _remindDateStr = _month + '月' + _day + '日';
+            %>
+            <div class="mall_item" remindId="<%= item.sMaterialDesc %>" remindUrl="<%= item.sUrl %>" remindTime="<%= _remindTime %>" remindTitle="<%= item.sMaterialName %>" ptag="37014.6.6">
+                <a href="javascript:;" class="mall_item_content">
+                    <img class="image" <%= i > 2 ? 'init_' : '' %>src="<%= JD.performance.getScaleImg(item.sMaterialUrl) %>">
+                    <span class="timer"><%= _remindDateStr %>开抢</span>
+                    <!--<span class="tag">满500减100，满800减200</span>-->
+                </a>
+                <div class="info">
+                    <div class="name">
+                        <i class="icon_s_618" style="display:none;"></i>
+                        <% if(item.sUserData2 == '1'){ %>
+                        <span class="sign">京东自营</span>
+                        <% } %>
+                        <%= item.sMaterialName %>
+                    </div>
+                    <div class="action">
+                        <span class="btn remind_btn">抢购提醒</span>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <% } %>
+        </script>
+
+        <script type="text/html" id="brand_navTpl">
+            <li>
+                <a href="javascript:;" val="" class="cur" ptag="37014.1.1">全部</a>
+            </li>
+            <% for(var i = 0, j = list.length; i < j; i++){ %>
+            <li>
+                <a href="javascript:;" val="<%= list[i].key %>" ptag="<%= list[i].rd %>">
+                    <%= list[i].title %>
+                </a>
+            </li>
+            <% } %>
+        </script>
+
+        <script type="text/html" id="previewTpl">
+            <%
+            for(var i = 0; i < brandData.length; i++){
+            var _brand = brandData[i];
+            %>
+            <div class="mall_item" remindId="<%= _brand.remindId %>" remindUrl="<%= _brand.sUrl %>" remindTime="<%= _brand.remindTime %>" remindTitle="<%= _brand.materialname %>" ptag="37014.6.6">
+                <a href="javascript:;" class="mall_item_content">
+                    <img class="image" <%= i > 2 ? 'init_' : '' %>src="<%= JD.performance.getScaleImg(_brand.material) %>">
+                    <span class="timer"><%= _brand.remindDate %>开抢</span>
+                    <!--<span class="tag">满500减100，满800减200</span>-->
+                </a>
+                <div class="info">
+                    <div class="name">
+                        <i class="icon_s_618" style="display:none;"></i>
+                        <% if(_brand.materialdesc == '1'){ %>
+                        <span class="sign">京东自营</span>
+                        <% } %>
+                        <%= _brand.materialname %>
+                    </div>
+                    <div class="action">
+                        <span class="btn remind_btn">抢购提醒</span>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+        </script>
+    </div>
+</div>
+
+<div class="WX_mask WX_mask2"></div>
+<div class="g_small_tips" id="shouNotice" style="display:none;">提示信息</div>
+<a href="#" id="goTop" style="display:none"  class="WX_backtop">返回顶部</a>
+
+<script>
+    speedTimePoint[3] = new Date(); // html加载时间
+    var brand_cfg = {
+        _serverTime: 1448417544,
+        _totalNum: 100,
+        sParams : "0|0|0|844710725855778533|0:844710725855778533:524288"
+    };
+
+    window.focusPortalId = [];
+    window.focusCptId = [];
+
+    var _temaiNav = [
+    {
+        title: '数码',
+        key: '9',
+        rd: '37014.1.8',
+        sub: []
+    },
+    {
+        title: '女装',
+        key: '3',
+        rd: '37014.1.3',
+        sub: []
+    },
+    {
+        title: '男装',
+        key: '2',
+        rd: '37014.1.2',
+        sub: [
+            {
+                title: '裤子',
+                key: '1.1',
+                rd: ''
+            },
+        ]
+    },
+    {
+        title: '鞋包',
+        key: '4',
+        rd: '37014.1.4',
+        sub: []
+    },
+    {
+        title: '运动',
+        key: '5',
+        rd: '37014.1.5',
+        sub: []
+    },
+    {
+        title: '家居',
+        key: '17',
+        rd: '37014.1.9',
+        sub: []
+    },
+    {
+        title: '美妆',
+        key: '16',
+        rd: '37014.1.10',
+        sub: []
+    },
+    {
+        title: '百货',
+        key: '8',
+        rd: '37014.1.6',
+        sub: []
+    },
+    {
+        title: '配饰',
+        key: '6',
+        rd: '37014.1.7',
+        sub: []
+    },
+    {
+        title: '手机',
+        key: '10',
+        rd: '37014.1.13',
+        sub: []
+    },
+    {
+        title: '家电',
+        key: '11',
+        rd: '37014.1.11',
+        sub: []
+    },
+    {
+        title: '母婴',
+        key: '12',
+        rd: '37014.1.12',
+        sub: []
+    }
+];
+</script>
+
+<!-- 加载模块JS -->
+<script type="text/javascript">
+//entra827-34
+(function(global) {
+    var g = [[]], // 二维数组
+    d = '//wq.360buyimg.com',
+    m = {},
+    blankjs = "",
+    grays = {},
+    mdebug = location.href.indexOf("mdebug=1") != -1;
+    m.alias = {};
+    var a = {},
+    p = {},
+    c = [];
+
+    g["1"] = ["\/js\/version\/201505\/cookie.201505071822.js", 
+    "\/js\/version\/201505\/formatJson.201505071823.js", 
+    "\/js\/version\/201505\/iscroll.201505131224.js", 
+    "\/js\/version\/201508\/lazyLoad.201508061002.js", 
+    "\/js\/version\/201511\/loadJs.201511161635.js", 
+    "\/js\/version\/201509\/login.201509232001.js", 
+    "\/js\/version\/201501\/md5.201501211603.js", 
+    "\/js\/version\/201507\/mqqStorage.201507151518.js", 
+    "\/js\/version\/201507\/report.201507281703.js", 
+    "\/js\/version\/201507\/ui.201507281615.js", 
+    "\/js\/version\/201505\/url.201505111643.js", 
+    "\/js\/version\/201511\/wfdata.201511191922.js", 
+    "\/js\/version\/201510\/wq.lanchGjApp.201510231410.js", 
+    "\/js\/version\/201511\/wq.lib.base.201511111438.js", 
+    "\/js\/version\/201511\/wq.lib.sidenav.201511020945.js", 
+    "\/js\/version\/201511\/wq.lib.yuyue.201511191925.js", 
+    "\/js\/version\/201511\/wq.wx.menu.201511201122.js"];
+    g["0"] = ["\/js\/version\/201511\/wq.wx.brand.v2.201511171510.js"];
+    g["2"] = ["\/js\/version\/201509\/zepto.201509161730.js"];
+    c = [
+    ['cookie', 1, 0], 
+    ['formatJson', 1, 1], 
+    ['iscroll', 1, 2], 
+    ['lazyLoad', 1, 3], 
+    ['loadJs', 1, 4],
+    ['login', 1, 5], 
+    ['md5', 1, 6], 
+    ['mqqStorage', 1, 7], 
+    ['report', 1, 8], 
+    ['ui', 1, 9], 
+    ['url', 1, 10], 
+    ['wfdata', 1, 11], 
+    ['wq.lanchGjApp', 1, 12], 
+    ['wq.lib.base', 1, 13], 
+    ['wq.lib.sidenav', 1, 14], 
+    ['wq.lib.yuyue', 1, 15], 
+    ['wq.wx.brand.v2', 0, 0], 
+    ['wq.wx.menu', 1, 16], 
+    ['zepto', 2, 0]];
+    if (typeof(JSON) != "undefined" && window.localStorage) {
+        for (var key in localStorage) {
+            if (/^_m_/.test(key)) {
+
+                var store = JSON.parse(localStorage.getItem(key));
+                var i = key.substr(3);
+                if ((new Date()).getTime() > store.cacheTime) {
+                    continue;
+                }
+                var _m = getModuleMap(i);
+                if (!_m || _m.group == 0) {
+                    if (_m) {
+                        var curPath1 = g[_m.group][_m.groupid];
+                        if ((d + curPath1) == store.path) {
+                            if (window.__cachelist) {
+                                __cachelist[0].push(_m.id);
+                            }
+                        }
+                    }
+                    continue;
+                }
+                var curPath = g[_m.group][_m.groupid];
+
+                if ((d + curPath) == store.path) {
+                    g[0].push(curPath);
+                    g[_m.group][_m.groupid] = blankjs;
+                    c[_m.index] = [_m.id, 0, g[0].length - 1];
+                    if (window.__cachelist) {
+                        __cachelist[0].push(_m.id);
+                    }
+
+                }
+            }
+        }
+    }
+    function getModuleMap(id) {
+        for (var i = 0; i < c.length; i++) {
+            if (c[i][0] == id) {
+                return {
+                    "id": id,
+                    "index": i,
+                    "group": c[i][1],
+                    "groupid": c[i][2]
+                };
+            }
+        }
+        return "";
+    }
+    function getCombUrl(list) {
+        var a = [];
+        for (var i = 0; i < list.length; i++) {
+            if (list[i]) {
+                a.push(list[i]);
+            }
+        }
+        return a.length > 1 ? (d + "/c/=" + a.join(",")) : (d + a[0]);
+    }
+    for (var i = 0; i < c.length; i++) {
+        var surl = d + g[c[i][1]][c[i][2]];
+        var furl = getCombUrl(g[c[i][1]]); //合并包地址
+        a[c[i][0]] = surl;
+        p[c[i][0]] = (c[i][1] == 0) ? surl: furl;
+    }
+
+    m.alias = mdebug ? a: p;
+    m.moduleURI = a;
+
+    global._moduleConfig = m;
+
+    function gray(m) {}
+})(this);
+</script>
+
+
+<!-- 模块加载器 -->
+<script type="text/javascript">
+    var modulejs, require, define; (function(global) {
+        var mod, cfg, _modulejs, _define, _require;
+        var version = "1.0.2";
+        var isCache = true;
+        var cacheTime = 60 * 60 * 24 * 30 * 1000;
+        cfg = {
+            debug: location.href.indexOf("mdebug=1") != -1 ? true: false,
+            alias: {},
+            cssAlias: {},
+            moduleURI: {},
+            vars: {},
+            uris: {},
+            modules: {},
+            callback: [],
+            actModules: {},
+            cacheLoad: {},
+            cacheDel: {},
+            deps: {},
+            events: {},
+            timing: {}
+        };
+        _modulejs.config = config;
+        config(global["_moduleConfig"] ? global._moduleConfig: cfg);
+        global["_moduleConfig"] = cfg;
+        require = _require;
+        define = _define;
+        modulejs = _modulejs;
+        on("module_ready",
+        function(id, fromeCache) {
+            cfg.callback = cleanArray(cfg.callback);
+            var init = cfg.callback,
+            l = init.length;
+            for (var i = 0; i < l; i++) {
+                if (init[i] && checkDeps(init[i].dependencies)) {
+                    var cb = init[i].factory;
+                    var deps = init[i].dependencies;
+                    var mods = [];
+                    var allDeps = [];
+                    var m;
+                    for (var j = 0; j < deps.length; j++) {
+                        var m = _require(deps[j]);
+                        allDeps.push(m.dependencies);
+                        mods.push(m);
+                    }
+                    debug("callback_is_run=start", cb.toString(), cfg.callback);
+                    init[i] = null;
+                    cb.apply(null, mods);
+                    cfg.debug && emit("callback_is_run", cb.toString().replace(/[\r\n]/g, ""));
+                }
+            }
+        });
+        on("module_require",
+        function(id) {
+            cfg.actModules[id] = cfg.actModules[id] ? (cfg.actModules[id] + 1) : 1;
+        });
+        on("module_cacheDel",
+        function(id) {
+            cfg.cacheDel[id] = 1;
+        });
+        on("cache_load",
+        function(m) {});
+        on("module_loss_alias",
+        function(id) {
+            console.error("module_loss_alias:" + id);
+        });
+        var cacheNow = new Date();
+        _loadCache();
+        cfg.timing['loadcache'] = new Date() - cacheNow;
+        function _loadCache() {
+            if (!_useCache()) {
+                return false;
+            }
+            localStorage.removeItem("_modules");
+            for (var key in localStorage) {
+                if (/^_m_/.test(key)) {
+                    var store = JSON.parse(localStorage.getItem(key));
+                    var i = key.substr(3);
+                    var now = (new Date()).getTime();
+                    var oneDay = 24 * 3600 * 1000;
+                    if (cfg.alias[i]) {
+                        if (_getModuleURI(i) != store.path || store.deps.join(",").indexOf("{") > -1) {
+                            emit("module_cacheDel", i);
+                            localStorage.removeItem(key);
+                            continue;
+                        }
+                    } else {
+                        if (now > store.cacheTime) {
+                            emit("module_cacheDel", i);
+                            localStorage.removeItem(key);
+                            continue;
+                        }
+                    }
+                    if (store.cacheTime - now < oneDay) {
+                        store.cacheTime = (new Date()).getTime() + cacheTime;
+                        try {
+                            localStorage.removeItem(key);
+                            localStorage.setItem(key, JSON.stringify(store));
+                        } catch(e) {}
+                    }
+                    cfg.cacheLoad[store.id] = store;
+                    emit("cache_load", store);
+                }
+            }
+        }
+        function _getModuleURI(id) {
+            return cfg.moduleURI[id] ? cfg.moduleURI[id] : cfg.alias[id];
+        }
+        function _useCache(id, deps, factory) {
+            if (typeof(JSON) == "undefined") {
+                return false;
+            }
+            if (!isCache) {
+                return false;
+            }
+            if (! (JSON && window.localStorage)) {
+                return false;
+            }
+            if (cfg.debug) {
+                return false;
+            }
+            var agent = navigator.userAgent.toLowerCase();
+            if (agent.indexOf("msie") > 0) {
+                var m = agent.match(/msie\s([\d\.]+);/i);
+                if (m && m.length >= 2 && parseInt(m[1]) <= 6) {
+                    return false;
+                }
+            }
+            if (id && id.indexOf("_") == 0) {
+                return false;
+            }
+            if (factory && factory.toString().indexOf("_cacheThisModule_") < 0) {
+                return false;
+            }
+            return true;
+        }
+        function _cacheModule(id, deps, factory) {
+            var key = "_m_" + id;
+            var _t = localStorage.getItem(key);
+            var ms = _t ? JSON.parse(_t) : {};
+            ms = {
+                "id": id,
+                "deps": deps,
+                "factory": factory.toString(),
+                "path": _getModuleURI(id),
+                "cacheTime": (new Date()).getTime() + cacheTime
+            };
+            try {
+                localStorage.removeItem(key);
+                localStorage.setItem(key, JSON.stringify(ms));
+                emit("module_cached", id);
+            } catch(e) {}
+        }
+        function _define(id, deps, factory) {
+            if (!id || (typeof(id) != "string")) return;
+            if (id != "_init" && typeof(cfg.modules[id]) != "undefined") {
+                emit("module_ready", id);
+                return true;
+            }
+            if (arguments.length === 2) {
+                factory = deps;
+                deps = null;
+            }
+            deps = isType("Array", deps) ? deps: (deps ? [deps] : []);
+            if (isType("Function", factory)) {
+                var _deps = parseDependencies(factory.toString());
+            }
+            _useCache(id, deps, factory) && _cacheModule(id, deps, factory);
+            deps = mergeArray(deps, _deps);
+            var mod = new Module(id);
+            mod.dependencies = deps || [];
+            for (var i = mod.dependencies.length - 1; i >= 0; i--) {
+                mod.dependencies[i] = parseVars(mod.dependencies[i]);
+            }
+            mod.factory = factory;
+            if (id == "_init") {
+                cfg.callback.push(mod);
+            } else {
+                cfg.modules[id] = mod;
+            }
+            emit("module_ready", id);
+        }
+        function _require(id) {
+            id = parseVars(id);
+            var module = cfg.modules[id];
+            emit("module_require", id);
+            if (!module) {
+                emit("module_error", id);
+                return null
+            }
+            if (module.exports) {
+                return module.exports;
+            }
+            var now = new Date();
+            var factory = module.factory;
+            var exports = isType("Function", factory) ? factory(require, module.exports = {},
+            module) : factory;
+            module.exports = exports === undefined ? module.exports: exports;
+            cfg.timing[id] = new Date() - now;
+            return module.exports;
+        }
+        _require.async = _modulejs;
+        _require.css = function(path) {
+            path = cfg.cssAlias && cfg.cssAlias[path] ? cfg.cssAlias[path] : path;
+            if (!path) {
+                return;
+            }
+            var l;
+            if (!window["_loadCss"] || window["_loadCss"].indexOf(path) < 0) {
+                l = document.createElement('link');
+                l.setAttribute('type', 'text/css');
+                l.setAttribute('rel', 'stylesheet');
+                l.setAttribute('href', path);
+                l.setAttribute("id", "loadCss" + Math.random());
+                document.getElementsByTagName("head")[0].appendChild(l);
+                window["_loadCss"] ? (window["_loadCss"] += "|" + path) : (window["_loadCss"] = "|" + path);
+            }
+            l && (typeof callback == "function") && (l.onload = callback);
+            return true;
+        }
+        function _modulejs(deps, factory) {
+            _define("_init", deps, factory);
+        }
+        function checkDeps(deps) {
+            var list = {},
+            flag = true;
+            for (var i = 0; i < deps.length; i++) list[deps[i]] = 1;
+            getDesps(deps, list);
+            for (var i in list) {
+                if (!cfg.modules[i]) {
+                    loadModule(i);
+                    flag = false;
+                }
+            }
+            return flag;
+            function getDesps(deps, list) {
+                for (var i = 0; i < deps.length; i++) {
+                    if (!list[deps[i]]) {
+                        list[deps[i]] = 1;
+                    }
+                    if (cfg.modules[deps[i]] && list[deps[i]] != 2) {
+                        list[deps[i]] = 2;
+                        getDesps(cfg.modules[deps[i]].dependencies, list);
+                    }
+                }
+            }
+        }
+        function parseVars(id) {
+            var VARS_RE = /{([^{]+)}/g
+            var vars = cfg.vars
+            if (vars && id.indexOf("{") > -1) {
+                id = id.replace(VARS_RE,
+                function(m, key) {
+                    return isType("String", vars[key]) ? vars[key] : key
+                })
+            }
+            return id
+        }
+        function mergeObject(a, b) {
+            for (var i in b) {
+                if (!b.hasOwnProperty(i)) {
+                    continue;
+                }
+                if (!a[i]) {
+                    a[i] = b[i];
+                } else if (Object.prototype.toString.call(b[i]) == "[object Object]") {
+                    mergeObject(a[i], b[i]);
+                } else {
+                    a[i] = b[i];
+                }
+            }
+            return a;
+        }
+        function config(obj) {
+            return cfg = mergeObject(cfg, obj);
+        }
+        function Module(id) {
+            this.id = id;
+            this.dependencies = [];
+            this.exports = null;
+            this.uri = "";
+        }
+        function loadModule(id) {
+            var m;
+            if (m = cfg.cacheLoad[id]) {
+                return _define(m.id, m.deps, eval("a = " + m.factory));
+            }
+            if (cfg.modules[id]) {
+                emit("module_ready", id);
+                return;
+            }
+            var url = cfg.alias[id] ? cfg.alias[id] : "";
+            if (!url) {
+                emit("module_loss_alias", id);
+                return;
+            }
+            if (cfg.uris[url]) {
+                return;
+            }
+            cfg.uris[url] = 1;
+            if (window.GLOBAL_CROSSORIGIN) {
+                var reloadTimes = 0;
+                var crossorigin = true;
+                var timestamp = "?host=" + location.host;
+                var handler = function() {
+                    var callee = arguments.callee cfg.timing[callee.uri] = new Date() - callee.time;
+                };
+                handler.time = new Date();
+                handler.uri = url;
+                function getModuleJs() {
+                    JD.sendJs(url + timestamp, {
+                        onLoad: handler,
+                        onError: function() {
+                            reloadTimes++;
+                            JD.report.umpBiz({
+                                bizid: '55',
+                                operation: '18',
+                                result: '1',
+                                source: '0',
+                                message: "legos_load_error_times:" + reloadTimes
+                            });
+                            if (reloadTimes === 1) {
+                                timestamp = "?t=" + Date.now();
+                                getModuleJs();
+                            } else if (reloadTimes === 2) {
+                                timestamp = "";
+                                crossorigin = false;
+                                getModuleJs();
+                            }
+                        },
+                        async: true,
+                        crossorigin: crossorigin
+                    });
+                }
+                getModuleJs();
+            } else {
+                var head = document.getElementsByTagName("head")[0] || document.documentElement;
+                var baseElement = head.getElementsByTagName("base")[0];
+                var node = document.createElement("script");
+                node.charset = "utf-8";
+                node.async = true;
+                node.src = url;
+                var handler = function() {
+                    var callee = arguments.callee cfg.timing[callee.uri] = new Date() - callee.time;
+                };
+                handler.time = new Date();
+                handler.uri = url;
+                node.onload = handler;
+                baseElement ? head.insertBefore(node, baseElement) : head.appendChild(node);
+            }
+            cfg.debug && emit("file_loading", url);
+        }
+        function on(name, cb) {
+            var cbs = cfg.events[name];
+            if (!cbs) {
+                cbs = cfg.events[name] = [];
+            }
+            cbs.push(cb);
+        }
+        function emit(name, evt) {
+            debug(name, evt);
+            if (!cfg.events[name] || cfg.events[name].length == 0) {
+                return;
+            }
+            for (var i = 0,
+            l = cfg.events[name].length; i < l; i++) {
+                cfg.events[name][i](evt);
+            }
+            if (name === 'error') {
+                delete cfg.events[name];
+            }
+        }
+        function cleanArray(a) {
+            var n = [];
+            for (var i = 0; i < a.length; i++) {
+                a[i] && n.push(a[i]);
+            }
+            return n;
+        }
+        function mergeArray(a, b) {
+            for (var i = 0; i < b.length; i++) { (("," + a + ",").indexOf("," + b[i] + ",") < 0) && a.push(b[i]);
+            }
+            return a;
+        }
+        function isType(type, obj) {
+            return Object.prototype.toString.call(obj) === "[object " + type + "]"
+        }
+        function parseDependencies(code) {
+            var commentRegExp = /(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;
+            var cjsRequireRegExp = /[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;
+            var ret = [];
+            code.replace(commentRegExp, "").replace(cjsRequireRegExp,
+            function(match, dep) {
+                dep && ret.push(parseVars(dep));
+            }) return ret;
+        }
+        function debug() {
+            if (!cfg.debug) {
+                return true;
+            }
+            var a = [],
+            l = arguments.length;
+            for (var i = 0; i < l; i++) {
+                a.push(arguments[i]);
+            }
+            try {
+                console.log.apply(console, a);
+            } catch(e) {}
+        }
+    } (this)); 
+</script>
+
+<!-- // 模块初始化 -->
+<script type="text/javascript">
+var _speedMarkModule = new Date();
+modulejs("wq.wx.brand.v2 ",function(m){
+    m.initV2();
+})
+</script>
+<!-- 执行时间 -->
+<script>
+    speedTimePoint[4] = new Date(); // js执行时间
+</script>
+<!-- 分享配置 -->
+<script>
+    window.shareConfig = {
+        img_url: "http://pics1.paipaiimg.com/update/20140827/index_213515220.png",
+        img_width: 100,
+        img_heigth: 100,
+        link: location.href,
+        desc: "每天9点为你推荐特价品牌，正品低价就来微信品牌闪购，超多大牌等你抢！",
+        title: "【品牌闪购】正品低价，精选大牌限时抢购！",
+        clkPtag: "17034.2.2"
+    };
+
+    window._jdApp = {
+        index : 9, // 大图还是小图
+        androidindex:6,// 对应哪个页面
+        fixed : false
+    };
+
+    window.MANUAL_PV = true;
+
+    window._navfoot = {
+        manual : true,
+        rd:{
+            home: '37080.1.1',
+            search: '37080.1.2',
+            quan: '',
+            cart: '37080.1.3',
+            user: '37080.1.4'
+        }
+    };
+</script>
+<!--WEBPAGEBEGIN@8639-->
+<script>
+!function() {
+    var i = {
+        "rpds": "1",
+        wxapi: "4",
+        redpoinit: "1",
+        ump: "",
+        qq: ",11187-258930,434475464",
+        gwq: "1"
+    },
+    w = location.href "1" === i.wxapi && -1 === w.indexOf("//wqs.jd.com/order/wq.confirm.shtml") && -1 === w.indexOf("/comment/") && -1 === w.indexOf("/shopping/") && -1 === w.indexOf("/lottery/") && -1 === w.indexOf("/zcdetail/") ? window.GLOBAL_FORBIT_WXAPI = !0 : "2" === i.wxapi && (window.GLOBAL_WX_HEADER || window.GLOBAL_WX_PORAL_PAGE) ? window.GLOBAL_FORBIT_WXAPI = !0 : ("3" === i.wxapi, 1),
+    "0" == i.redpoinit && (window.GlOBAL_HIDE_WXREDPOINT = !0),
+    "1" == i.gwq && (window.GLOBAL_SHOW_FOOT_GOUWU = !0),
+    "" !== i.ump && (window.GLOBAL_UMP_PERCENT = i.ump),
+    "" !== i.rpds && (JD.GLOBAL_CONFIG.RDPS_PERCENT = i.rpds),
+    window.GLOBAL_DEBUG_QQ = i.qq
+} ()
+</script>
+<!--WEBPAGEEND@8639-->
+
+
+<script> 
+    window.FOOTDETECT = {
+        scene: JD.device.scene
+    },
+    window.addEventListener("load",function() {
+        FOOTDETECT.load = !0,
+        JD && JD.events && JD.events.trigger("modulejs_ready")
+    }),
+    function() {
+        var a = {
+            mobilereport: "wg.mobilereport.min.js",
+            report: "wg.report.min.js",
+            wxapi: "wg.wxapi.min.js",
+            qqapi: "wg.qqapi.min.js",
+            mwfoot: "wg.mwfoot.min.js",
+            wxfoot: "wg.wxfoot.min.js",
+            wgstorage: "wg.storage.min.js",
+            jdappdl: "wg.jdappdl.min.js",
+            navfoot: "wg.navfoot.min.js",
+            searchfoot: "wg.searchfoot.min.js",
+            wxfootlevel2: "wg.wxfootlevel2.min.js",
+            sqfootlevel2: "wg.sqfootlevel2.min.js",
+            sqheadsearchbar: "wq.sq.headsearchbar.min.js",
+            sqheader: "wq.sq.header.min.js",
+            wxheader: "wq.wx.header.min.js",
+            wxlafen: "wq.wx.lafen.min.js",
+            rongzai: "wq.rongzai.min.js"
+        },
+        b = location.href.replace(/(\?|#).*$/, "").indexOf("event") > -1,
+        c = location.href.indexOf("mdebug=1") > -1,
+        d = ["mobilereport", "report"],
+        e = /\/style11\//i.test(location.href),
+        f = "201511101133",
+        g = "http://wq.360buyimg.com";
+        if ("weixin" == JD.device.scene && d.push("wxapi"), 
+            b || e || d.push("weixin" == JD.device.scene ? "wxfoot": "mwfoot"), 
+            window.GLOBAL_WX_LEVEL2 && d.push("wxfootlevel2"), 
+            window.GLOBAL_SQ_LEVEL2 && d.push("sqfootlevel2"), 
+            (window.GLOBAL_SQ_HEADER || JD.GLOBAL_CONFIG.SQ_HEADER_SEARCHBAR) && d.push("sqheadsearchbar"), 
+            window.GLOBAL_SQ_HEADER && (d.push("qqapi"), d.push("sqheader")), 
+            window.GLOBAL_WX_LAFEN && d.push("wxlafen"), window.GLOBAL_WX_HEADER && d.push("wxheader"), 
+            e || (window._jdApp && d.push("jdappdl"), window._navfoot && d.push("navfoot"), 
+            window._searchfoot && d.push("searchfoot"), 
+            d.push("rongzai")), 
+            d.push("wgstorage"), 
+            console.dir(d), c) 
+
+            d.forEach(function(b) {
+            JD.sendJs([g, "/js/common/src/", a[b].replace(".min.js", ".js")].join(""), {
+                defer: !0,
+                async: !0
+            })
+        });
+        else if (e) d.forEach(function(b) {
+            JD.sendJs([g, "/js/common/dest/", a[b], "?t=" + f].join(""), {
+                defer: !0,
+                async: !0
+            })
+        });
+        else {
+            var h = [g, "/c/=", d.map(function(b) {
+                return "js/common/dest/" + a[b]
+            }).join(","), "?t=" + f].join("");
+            JD.sendJsByDomain({
+                url: h,
+                defer: !0,
+                async: !0,
+                crossOrigin: !!window.GLOBAL_CROSSORIGIN
+            })
+        }
+    }(),
+    function() {
+        function a(a) {
+            var b = document.createElement("div");
+            b.innerHTML = a;
+            var c = document.body.firstChild;
+            document.body.insertBefore(b, c)
+        }
+        var b = window.GLOBAL_DEBUG_QQ,
+        c = JD.cookie.get("jdpin");
+        if (b && c && b.indexOf(c + ",") > 0) {
+            console.log("debug gray...");
+            var d, e, f, g = document;
+            g.addEventListener("touchstart",
+            function(b) {
+                f && (clearTimeout(f), f = null);
+                var c = b.touches[0];
+                d = c.clientx,
+                e = c.clienty,
+                f = setTimeout(function() {
+                    var b = JD.log.get().join("<br>");
+                    a(b)
+                },
+                2e3)
+            },
+            !1),
+            g.addEventListener("touchmove",
+            function(a) {
+                var b = a.touches[0],
+                c = b.clientx,
+                g = b.clienty;
+                f && (Math.abs(c - d) > 5 || Math.abs(g - e) > 5) && (clearTimeout(f), f = null)
+            },
+            !1),
+            g.addEventListener("touchend",
+            function() {
+                f && (clearTimeout(f), f = null)
+            },
+            !1)
+        }
+    }();
+</script>  
+</body>
+</html>
